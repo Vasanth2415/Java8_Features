@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-06T17:10:27 IST" name="Default suite" finished-at="2024-07-06T17:10:27 IST" duration-ms="101">
+    <groups>
+    </groups>
+    <test started-at="2024-07-06T17:10:27 IST" name="Default test" finished-at="2024-07-06T17:10:27 IST" duration-ms="101">
+      <class name="OptionalExample.OptionsMethodExample">
+        <test-method signature="getExample()[pri:0, instance:OptionalExample.OptionsMethodExample@78b66d36]" started-at="2024-07-06T17:10:27 IST" name="getExample" finished-at="2024-07-06T17:10:27 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getExample -->
+        <test-method signature="ifPresentExample()[pri:0, instance:OptionalExample.OptionsMethodExample@78b66d36]" started-at="2024-07-06T17:10:27 IST" name="ifPresentExample" finished-at="2024-07-06T17:10:27 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ifPresentExample -->
+        <test-method signature="isEmptyExample()[pri:0, instance:OptionalExample.OptionsMethodExample@78b66d36]" started-at="2024-07-06T17:10:27 IST" name="isEmptyExample" finished-at="2024-07-06T17:10:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isEmptyExample -->
+        <test-method signature="isPresentExample()[pri:0, instance:OptionalExample.OptionsMethodExample@78b66d36]" started-at="2024-07-06T17:10:27 IST" name="isPresentExample" finished-at="2024-07-06T17:10:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPresentExample -->
+        <test-method signature="orElseExample()[pri:0, instance:OptionalExample.OptionsMethodExample@78b66d36]" started-at="2024-07-06T17:10:27 IST" name="orElseExample" finished-at="2024-07-06T17:10:27 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orElseExample -->
+        <test-method signature="orElseGetExample()[pri:0, instance:OptionalExample.OptionsMethodExample@78b66d36]" started-at="2024-07-06T17:10:27 IST" name="orElseGetExample" finished-at="2024-07-06T17:10:27 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orElseGetExample -->
+        <test-method signature="orElseThrowExample()[pri:0, instance:OptionalExample.OptionsMethodExample@78b66d36]" started-at="2024-07-06T17:10:27 IST" name="orElseThrowExample" finished-at="2024-07-06T17:10:27 IST" duration-ms="4" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException
+at OptionalExample.OptionsMethodExample.lambda$3(OptionsMethodExample.java:62)
+at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+at OptionalExample.OptionsMethodExample.orElseThrowExample(OptionsMethodExample.java:62)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orElseThrowExample -->
+      </class> <!-- OptionalExample.OptionsMethodExample -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
